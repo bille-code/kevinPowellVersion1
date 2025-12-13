@@ -1,0 +1,91 @@
+
+* {
+  box-sizing: border-box;
+
+  }
+
+/*Selector de tipo: los selectores de tipo aplican la propiedad a todos los elementos del mismo tipo */
+/*
+* El orden en css es muy importante ejemplo: si agregamos otro color de fuente debajo del que ya esta setiado 
+tomara el color de la ultima asignación esto por cascada es decir los estilos los lee de arriba hacia abajo
+
+*/
+
+body{
+  font-family: roboto, serif;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.wrapper{
+  max-inline-size: 1000px;
+  margin-inline: auto;
+  
+}
+
+header{
+
+  text-align: center; 
+}
+
+
+h1{
+  font-size: 7.5rem;
+  text-align: center;
+
+}
+
+h2{
+color: orange;
+
+}
+
+h3{
+
+  font-size:1.75;
+}
+
+a{
+  color: #2b930b;
+}
+
+a:hover{
+
+  color: #6e9f5f;
+}
+
+ul li::marker{
+  content: '🦊 ';
+
+}
+
+.climbing-bg{
+  color: #fff;
+  background-image: url('../images/simple-steps.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 24px;
+}
+
+.tild-bg{
+  color: #fff;
+  background: #087A98;
+  border: 4px solid #0b4a5a;
+  padding: 10px;
+
+}
+
+.tild-text{
+
+  color: #087A98;
+}
+
+section{
+  margin-block: 100px;
+}
+
+footer{
+  text-align: center;
+
+}
